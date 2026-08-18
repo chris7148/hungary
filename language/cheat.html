@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hungarian Travel Phrases</title>
+<style>
+  :root {
+    --primary: #1b4332;
+    --primary-light: #2d6a4f;
+    --accent: #b93826;
+    --bg-page: #f8faf9;
+    --bg-card: #ffffff;
+    --text-main: #1f2937;
+    --text-muted: #64748b;
+    --border-subtle: #e5e7eb;
+    --table-header: #2d6a4f;
+    --row-alt: #f8faf9;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    line-height: 1.5;
+    padding: 12px;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  header h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  header p {
+    font-size: 0.85rem;
+    color: #d8f3dc;
+  }
+
+  .section-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 16px 0 8px 2px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .table-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  thead th {
+    background-color: var(--table-header);
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    padding: 9px 12px;
+    font-size: 0.82rem;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: var(--row-alt);
+  }
+
+  td {
+    padding: 10px 12px;
+    vertical-align: top;
+  }
+
+  .col-en {
+    width: 42%;
+    font-weight: 600;
+    color: var(--text-main);
+  }
+
+  .col-hu-ph {
+    width: 58%;
+  }
+
+  .hu-text {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--primary);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .ph-text {
+    font-size: 0.82rem;
+    font-style: italic;
+    color: var(--accent);
+    display: block;
+    line-height: 1.25;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #f1f5f9;
+    color: #64748b;
+    font-size: 0.7rem;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-weight: normal;
+    margin-top: 2px;
+  }
+
+  .rules-card {
+    background-color: #eef1ec;
+    border: 1px solid #d0dbd3;
+    border-left: 4px solid var(--primary-light);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 0.85rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .rules-card h3 {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-bottom: 8px;
+  }
+
+  .sound-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 6px 10px;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #374151;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Hungarian Travel Reference</h1>
+    <p>English-first quick reference formatted for mobile.</p>
+  </header>
+
+  <div class="section-title">1. Everyday Essentials & Greetings</div>
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-en">English</th>
+          <th class="col-hu-ph">Hungarian & Phonetics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-en">Hello / Hi <br><span class="tag">informal</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Szia / Sziasztok</span>
+            <span class="ph-text">SEE-ah / SEE-oss-tok</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Good day / afternoon <br><span class="tag">formal</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Jó napot kívánok</span>
+            <span class="ph-text">YOH NAH-pot KEE-vah-nok</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Good morning</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Jó reggelt kívánok</span>
+            <span class="ph-text">YOH REG-guelt KEE-vah-nok</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Good evening</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Jó estét kívánok</span>
+            <span class="ph-text">YOH ESH-tayt KEE-vah-nok</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Goodbye <br><span class="tag">formal / short</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Viszontlátásra / Viszlát</span>
+            <span class="ph-text">VEE-sont-lah-tahsh-rah / VEES-laht</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Kérem / Legyen szíves</span>
+            <span class="ph-text">KAY-rem / LEH-dyen SEE-vesh</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Thank you very much</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Köszönöm szépen</span>
+            <span class="ph-text">KOE-soe-noem SAY-pen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">You're welcome</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Szívesen</span>
+            <span class="ph-text">SEE-veh-shen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Yes / No</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Igen / Nem</span>
+            <span class="ph-text">EE-ghen / NEM</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">2. Apologies & Clarifications</div>
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-en">English</th>
+          <th class="col-hu-ph">Hungarian & Phonetics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-en">Excuse me <br><span class="tag">to get attention</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Elnézést</span>
+            <span class="ph-text">EL-nay-zaysht</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Sorry <br><span class="tag">for a mistake/bumping</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Bocsánat</span>
+            <span class="ph-text">BO-chah-not</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">I'm really sorry <br><span class="tag">expressing regret</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Sajnálom</span>
+            <span class="ph-text">SHOY-nah-lom</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Sorry to bother you</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Bocsánat, hogy zavarom</span>
+            <span class="ph-text">BO-chah-not, hodj ZO-vo-rom</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Excuse me, can I pass? <br><span class="tag">e.g. on a tram</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Elnézést, szabad lesz?</span>
+            <span class="ph-text">EL-nay-zaysht, SO-bod less?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Could you repeat that?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Megismételné, kérem?</span>
+            <span class="ph-text">MEG-ish-may-tel-nay, KAY-rem?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">More slowly, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Lassabban, kérem</span>
+            <span class="ph-text">LOSH-shob-bon, KAY-rem</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">No problem / It's okay</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Semmi baj</span>
+            <span class="ph-text">SHEM-mee boy</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">3. Dining & Ordering Out</div>
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-en">English</th>
+          <th class="col-hu-ph">Hungarian & Phonetics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-en">Table for two, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Egy asztalt kérnénk két főre</span>
+            <span class="ph-text">EDJ OSS-tolt KAYR-naynk KAYT FUR-reh</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">The menu, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Az étlapot kérném</span>
+            <span class="ph-text">OZ AYT-lo-pot KAYR-naym</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">The bill, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">A számlát kérném</span>
+            <span class="ph-text">OH SAHM-laht KAYR-naym</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">It was delicious!</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Finom volt, köszönöm!</span>
+            <span class="ph-text">FEE-nom VOLT, KOE-soe-noem</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Cheers!</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Egészségedre!</span>
+            <span class="ph-text">EH-gaysh-shay-ged-reh</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Water <br><span class="tag">still / sparkling</span></td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Víz (mentes / szénsavas)</span>
+            <span class="ph-text">VEEZ (MEN-tesh / SAYN-shov-osh)</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">A tea, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Egy teát kérnék</span>
+            <span class="ph-text">EDJ TAY-aht KAYR-nayk</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">A beer, please</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Egy sört kérnék</span>
+            <span class="ph-text">EDJ SHURT KAYR-nayk</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Can I pay by card?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Kártyával lehet fizetni?</span>
+            <span class="ph-text">KAHR-tyah-vol LEH-het FEE-zet-nee?</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">4. Getting Around & Practical Queries</div>
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-en">English</th>
+          <th class="col-hu-ph">Hungarian & Phonetics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-en">Where is the...?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Hol van a...?</span>
+            <span class="ph-text">HOL VON OH...?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Where is the toilet?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Hol van a mosdó?</span>
+            <span class="ph-text">HOL VON OH MOSH-doh?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Left / Right / Straight</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Balra / Jobbra / Egyenesen</span>
+            <span class="ph-text">BOL-rah / YOB-brah / EDJ-eh-neh-shen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Ticket / Travelcard / Stop</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Jegy / Bérlet / Megálló</span>
+            <span class="ph-text">YEDY / BAYR-let / MEG-ahl-loh</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Street / Square / Bridge</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Utca (u.) / Tér / Híd</span>
+            <span class="ph-text">OOT-tsah / TAYR / HEED</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Do you speak English?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Beszél angolul?</span>
+            <span class="ph-text">BEH-sayl ON-go-lool?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">I don't speak Hungarian</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Nem beszélek magyarul</span>
+            <span class="ph-text">NEM BEH-say-lek MODJ-or-ool</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">I don't understand</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Nem értem</span>
+            <span class="ph-text">NEM AYR-tem</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">How much is it?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Mennyibe kerül?</span>
+            <span class="ph-text">MEN-yee-beh KEH-rool?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-en">Could you help me?</td>
+          <td class="col-hu-ph">
+            <span class="hu-text">Tudna segíteni?</span>
+            <span class="ph-text">TOOD-nah SHEH-ghee-teh-nee?</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rules-card">
+    <h3>Language & Pronunciation Guidance</h3>
+    <div>• <strong>Stress is always on the 1st syllable</strong> of every word.</div>
+    <div class="sound-grid">
+      <div><strong>SZ</strong> = 's' (<em>see</em>)</div>
+      <div><strong>S</strong> = 'sh' (<em>shoe</em>)</div>
+      <div><strong>C</strong> = 'ts' (<em>cats</em>)</div>
+      <div><strong>CS</strong> = 'ch' (<em>chair</em>)</div>
+      <div><strong>GY</strong> = 'dy' (soft d)</div>
+      <div><strong>J / LY</strong> = 'y' (<em>yes</em>)</div>
+      <div><strong>A</strong> = short 'o' (<em>lot</em>)</div>
+      <div><strong>Á</strong> = long 'ah' (<em>father</em>)</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
